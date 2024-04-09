@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cafedd8f162c49b43ad38900633a6a40, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  info: Add 40 point of armor
+  name: Shield
+  Icon: {fileID: 21300000, guid: b20ddaf1f6805402892c95b7cc3ddf47, type: 3}
+  Frame: {fileID: 21300000, guid: 84063999b9e1741d099c1d8f7bbc0f7a, type: 3}
+  ID: 2
+  multiplier: 8

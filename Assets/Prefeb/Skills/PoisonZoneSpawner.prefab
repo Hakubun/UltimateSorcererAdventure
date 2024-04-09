@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8165816541607450971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8165816541607450968}
+  - component: {fileID: -164245403562037760}
+  m_Layer: 0
+  m_Name: PoisonZoneSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8165816541607450968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8165816541607450971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-164245403562037760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8165816541607450971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321fac5f8291b0943abb5a2e799c55aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoisonZone: {fileID: 154660966157487693, guid: 770d1e994ec232b4ab960d1828338bb7, type: 3}
+  player: {fileID: 0}
+  _SkillCooldownBar: {fileID: 0}
+  Icon: {fileID: 154660966157487693, guid: 770d1e994ec232b4ab960d1828338bb7, type: 3}
+  img: {fileID: 4986283823354421580, guid: 302d201eee8ab3f4397b080d8992de33, type: 3}
+  PoisonRate: 1
+  initialPoisonRate: 1
+  spawnRateCooldown: 5
+  CurrentSpawnCD: 0
+  zoneDestructionRate: 4
+  upgradeStep: 0.5
+  maxPoisonRate: 6
+  spawnZones: 1

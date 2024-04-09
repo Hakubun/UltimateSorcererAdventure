@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78acf52f470b4b208edf3a39c0dfd5f2, type: 3}
+  m_Name: lvl Header preset
+  m_EditorClassIdentifier: 
+  coloredHeaderPreset:
+  - headerText: Infos
+    headerColor: {r: 0.62996066, g: 0.033285867, b: 0.6415094, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Button&joystick
+    headerColor: {r: 0.62996066, g: 0.033285867, b: 0.6415094, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Panels
+    headerColor: {r: 0.62996066, g: 0.033285867, b: 0.6415094, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Enironment
+    headerColor: {r: 0.8784314, g: 0.5255422, b: 0.07843139, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: UI
+    headerColor: {r: 0.79836357, g: 0.07843139, b: 0.8784314, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Items
+    headerColor: {r: 0.8255751, g: 0.8784314, b: 0.07843139, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Enemy
+    headerColor: {r: 0.8773585, g: 0.1974603, b: 0.07863116, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Systems
+    headerColor: {r: 0.39449093, g: 0.4245283, b: 0.3985258, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Player
+    headerColor: {r: 0.1254902, g: 0.9137255, b: 0.23133986, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
+  - headerText: Managers
+    headerColor: {r: 0.12517802, g: 0.60422355, b: 0.9150943, a: 1}
+    textAlignmentOptions: 0
+    fontStyleOptions: 0
+    fontSize: 12
+    fontColor: {r: 1, g: 1, b: 1, a: 1}
+    dropShadow: 0
